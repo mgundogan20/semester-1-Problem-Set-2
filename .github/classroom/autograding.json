@@ -1,0 +1,204 @@
+{
+  "tests": [
+    {
+      "name": "t1",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "2",
+      "output": "-50",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t2",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\nc\r\n1\r\nf\r\n1\r\ni\r\n1\r\nyy\r\n1\r\ny",
+      "output": "-33",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t3",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\ns\r\n1\r\nt\r\n2\r\n2\r\n3\r\nthe cure is worse than the disease",
+      "output": "4369",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t4",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\nw\r\n2\r\n1\r\nr\r\n1\r\nus\r\n1\r\ns\r\n2\r\n3\r\nthe cure is worse then the disease",
+      "output": "94",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t5",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\na\r\n1\r\nH\r\n1\r\nj\r\n1\r\nb\r\n2",
+      "output": "-74",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t6",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "u\r\np\r\n1\r\ns\r\n5\r\n3\r\n1",
+      "output": "468",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t7",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\ns\r\n1\r\nt\r\n1\r\nh\r\n1\r\nd\r\n2\r\n2\r\n2\r\n3\r\n3\r\n",
+      "output": "187",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t8",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "3\r\nthe cure",
+      "output": "200",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t9",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "3\r\nthe cure is worse than the disease\r\n",
+      "output": "5800",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t10",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "r\r\nr\r\n2\r\n",
+      "output": "-50",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t11",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "p\r\ny\r\np\r\n1\r\ne\r\n3\r\nthe\r\n",
+      "output": "125",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t12",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\n2\r\n1\r\ns\r\n2\r\n2\r\n",
+      "output": "-107",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t13",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\nr\r\n1\r\nz\r\n2\r\n3\r\nthe cure is worse than the disease\r\n",
+      "output": "5209",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t14",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\nw\r\n2\r\n2\r\n",
+      "output": "-233",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t15",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\nt\r\n1\r\nh\r\n1\r\nc\r\n1\r\nr\r\n1\r\ns\r\n1\r\nw\r\n1\r\nd\r\n2\r\n2\r\n2\r\n2\r\n3\r\nthe cure is worse than the disease\r\n",
+      "output": "2805",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t16",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\ny\r\n3\r\nthe\r\n",
+      "output": "125",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t17",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "e\r\ne\r\ne\r\n2\r\n",
+      "output": "-50",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t18",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\ns\r\n1\r\ns\r\n1\r\nt\r\n1\r\ns\r\n3\r\nthe\r\n",
+      "output": "669",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t19",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "5\r\nq\r\n3\r\nthe\r\n",
+      "output": "200",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "t20",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "1\r\na\r\n1\r\ns\r\n2\r\n2\r\n",
+      "output": "-107",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    }
+  ]
+}
